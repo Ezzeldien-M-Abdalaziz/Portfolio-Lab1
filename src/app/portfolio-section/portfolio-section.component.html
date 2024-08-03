@@ -1,0 +1,16 @@
+<div class="container mt-5">
+  <h1>Portfolio</h1>
+  <div class="projects text-center mt-5">
+    <div class="row gy-5 ">
+      @for (i of projects; track $index) {
+        <div class="col-md-4 col-12">
+          @if($index%2 !=0){
+            <div class="box" style="background-color: #282825;">{{i}}</div>
+          }@else{
+            <div class="box" style="background-color: #666666;">{{i}}</div>
+          }
+        </div>
+      }
+    </div>
+  </div>
+</div>

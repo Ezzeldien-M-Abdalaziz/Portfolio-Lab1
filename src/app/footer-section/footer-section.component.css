@@ -1,0 +1,32 @@
+footer{
+  text-align: center;
+    padding: 50px 0;
+    color: white;
+    background-color: #282825;
+
+  .container{
+    .button{
+      text-decoration: none;
+      color: white;
+      border: 1px solid white;
+      padding: 15px 50px;
+      display: inline-block;
+      transition: .3s;
+      font-weight: bold;
+      &:hover{
+        background-color: white;
+        color: black;
+      }
+    }
+
+    i{
+      padding: 0px 30px;
+      cursor: pointer;
+    }
+    p{
+      font-size: 18px;
+      margin-top: 20px;
+    }
+  }
+}
+

@@ -1,0 +1,12 @@
+.container{
+  margin-bottom: 50px;
+}
+.projects{
+  .box{
+    background-color: red;
+    padding: 80px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
